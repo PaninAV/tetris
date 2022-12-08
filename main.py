@@ -432,7 +432,7 @@ def show_settings():
     screen.blit(difficult_text, (135, 350))
     new_game_button.show_button()
     back_button.show_button()
-
+    #
 
 def find_difficult():
     return difficult_slovar.get(difficult)
